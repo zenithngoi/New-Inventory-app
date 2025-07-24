@@ -3,7 +3,6 @@ import { createClient } from '@supabase/supabase-js';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 // Supabase client setup
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
